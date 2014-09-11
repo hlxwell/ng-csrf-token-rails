@@ -1,8 +1,10 @@
 # REAME
 
-Add "ng-csrf-token-rails" to angular.module dependency list.
+1. Copy ng-csrf-token-rails.js.coffe to your assets
 
-When login or logout, should return new CSRF token through API.
+2. Add "ng-csrf-token-rails" to angular.module dependency list.
+
+3. When login or logout, should return new CSRF token through API.
 
 ```
 app.controller "SigninController", (CsrfTokenRails) ->
